@@ -19,4 +19,3 @@ function getFromClient(request, response) {
     response.write(content);
     response.end();
 }
-
