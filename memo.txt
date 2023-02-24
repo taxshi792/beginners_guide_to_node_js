@@ -1,11 +1,18 @@
 
 
+2023/02/25
+・gitのユーザ設定をする
+　しないと「EC2 Default User」でpushされたりする
+　参考：<https://26gram.com/git-initial-configuration-setup>
+
 2023/02/23
 ・AWSアカウント作り直せば再度1年無料期間ゲット
+
 ・Githubの初回pushは準備が必要
-　参考：（未）
+　参考：<https://qiita.com/folivora/items/763d06b26bafd573a456>
+
 ・Githubがパスワードで取得できなくなってるので、tokenを設定する
-　参考：（未）
+　参考：<https://style.potepan.com/articles/34189.html>
 
 
 
