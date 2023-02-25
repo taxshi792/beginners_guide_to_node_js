@@ -27,7 +27,7 @@ function getFromClient(request, response) {
             
             break;
         }
-        case "/style_list2-11.css": {
+        case "/style": {
             response.writeHead(200, {"Content-Type": "text/css"});
             response.write(style_css);
             response.end();
