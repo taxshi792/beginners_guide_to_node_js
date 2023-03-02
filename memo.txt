@@ -1,9 +1,22 @@
+2023/03/03
+・ejs.renderで、filenameを指定しないとエラーになるが、理由がわからぬ
+　→同じ疑問を持った人がいたようでteratailで質問されている
+　　https://teratail.com/questions/195595
+　　→指定されたfilenameは、実際はディレクトリ部分のみ使用されているぽい？
+　　　→書籍で"data_item"と指定していたが、本当は
+　　　"data_item.ejs"
+　　　"./data_item.ejs"
+　　　"/beginners_guide_to_node_js/node-app/Chapter3/mini_board/data_item.ejs"
+　　　といったように指定するのが本来正しいのかも
+
+　　→ディレクトリは上記のようにjs側で指定するが、
+　　　ファイルの指定は、ejsファイル内のincludeで指定する
+　　　→この際、拡張子の".ejs"はあってもなくてもOK
+　　　　→ただし、大文字小文字は区別するので正しく指定する必要あり
 
 2023/02/26
 ・cloud9のプレビューでの表示だと、cookieがうまく使えないのかもしれない。
 　プレビューを別ウインドウで表示するようにpopすればうまく動く模様。
-
-
 
 2023/02/25
 ・gitのユーザ設定をする
