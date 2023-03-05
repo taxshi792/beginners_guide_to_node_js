@@ -32,5 +32,6 @@
 ・Githubがパスワードで取得できなくなってるので、tokenを設定する
 　参考：<https://style.potepan.com/articles/34189.html>
 
-
+・git init だと masterブランチが作られるっぽいので、
+　push前にブランチ切るとか名前変えるとかでmainに変更するといいか？
 
